@@ -11,14 +11,14 @@ const Footer = () => {
     viewport={{ once: false, amount: 0.25 }}
     className={`paddings ${css.wrapper}`}>
       
-      
+      <a className="contact" id="contact"></a>
       <motion.div
       variants={footerVariants}
       className={`innerWidth yPaddings flexCenter ${css.container}`}>
         <div className={css.left}>
           <span className="primaryText">
-            Let's make something <br />
-            amazing together.
+            Let's <br />
+            Connect!
           </span>
           <span className="primaryText">
             Start by <a href="mailto:zainkeepscode@gmail.com">saying hi</a>

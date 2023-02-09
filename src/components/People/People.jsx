@@ -36,13 +36,13 @@ const People = () => {
             {comments.map((comment, i) => {
               return (
                 <div className={`flexCenter ${css.comment}`}>
-                  <img src={comment.img} alt="" />
+                  {/* <img src={comment.img} alt="" />
                   <p>{comment.comment}</p>
                   <div className={css.line}></div>
                   <div className={css.bio}>
                     <span>{comment.name}</span>
                     <span>{comment.post}</span>
-                  </div>
+                  </div> */}
                 </div>
               );
             })}

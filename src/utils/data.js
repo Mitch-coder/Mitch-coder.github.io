@@ -3,28 +3,33 @@ import { CiMobile1 } from "react-icons/ci";
 import { MdWorkspacesOutline } from "react-icons/md";
 export const projectExperience = [
   {
-    name: "Website Design",
-    projects: 76,
+    name: "Website Developer",
+    projects: "React + Ts, React +Js, HTML, CSS,JavaScript,Tailwind,Bootstrap",
     icon: HiOutlineDesktopComputer,
     bg: "#286F6C",
   },
   {
-    name: "Mobile App Design",
-    projects: 63,
+    name: "Mobile App Developer",
+    projects: "React Native, Kotlin",
     icon: CiMobile1,
     bg: "#EEC048",
   },
+  // {
+  //   name: "Desktop Developer",
+  //   projects: "C# + Windows Forms, DevExpress",
+  //   icon:  HiOutlineDesktopComputer,
+  //   bg: "#E24440",
+  // },
   {
-    name: "Brand Identity",
-    projects: 47,
+    name: "Other Skills",
+    projects: "Git&GitHub, Linux, Jira, Trello,Figma,Manual Testing,C# + Windows Forms, DevExpress",
     icon: MdWorkspacesOutline,
     bg: "#F26440",
   },
 ];
 
 export const WhatDoIHelp = [
-  "I will help you with finging a solution and solve your problem, We use process design to create digital products. Besides that also help their business.",
-  "We use process design to create digital products. Besides that also help their business",
+  "I can help drive innovation and improve efficiency, Whether I am working on a new product, automating a tedious process, or improving the performance of an existing system, I am always striving to find ways to add value and make a positive impact. Additionally, I am a quick learner and I am always eager to stay current with the latest advancements in the field.",
 ];
 
 export const workExp = [
@@ -34,21 +39,7 @@ export const workExp = [
     role: "Visual Designer",
     detail:
       "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
-  {
-    place: "New Man Services",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "UI/UX Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
-  {
-    place: "Global Solution",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Sr. Product Designer",
-    detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
-  },
+  }
 ];
 
 export const comments = [
