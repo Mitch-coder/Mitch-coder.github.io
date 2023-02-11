@@ -2,6 +2,8 @@ import React from "react";
 import { footerVariants, staggerChildren } from "../../utils/motion";
 import css from "./Footer.module.scss";
 import {motion} from 'framer-motion'
+import { MdGite } from "react-icons/md";
+import { FaGithub,FaLinkedin } from "react-icons/fa"
 const Footer = () => {
   return (
     <motion.section
@@ -21,21 +23,23 @@ const Footer = () => {
             Connect!
           </span>
           <span className="primaryText">
-            Start by <a href="mailto:zainkeepscode@gmail.com">saying hi</a>
+            Start by <a href="mailto:michellescalderon2002@gmail.com">saying hi</a>
           </span>
         </div>
 
         <div className={css.right}>
           <div className={css.info}>
             <span className="secondaryText">Information</span>
-            <p>145 New York, FL 5467, USA</p>
+            <p>Michelle Calderon</p>
           </div>
-          <ul className={css.menu}>
-            <li>Services</li>
-            <li>Works</li>
-            <li>Notes</li>
-            <li>Experience</li>
-          </ul>
+          <a href="https://github.com/Mitch-coder" className="primaryText">
+            <FaGithub></FaGithub>
+            </a>
+            <a href="https://www.linkedin.com/in/michelle-calderon-0b0a80227/" className="primaryText">
+            <FaLinkedin></FaLinkedin>
+            </a>
+    
+
         </div>
       </motion.div>
     </motion.section>

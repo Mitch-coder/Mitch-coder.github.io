@@ -24,6 +24,7 @@
                     color: orange;
                 }
             }
+
         }
 
 
@@ -49,6 +50,9 @@
                     &:hover{
                         color: $secondary
                     }
+                }
+                >h5{
+                    font-weight: 16;
                 }
             }
         }

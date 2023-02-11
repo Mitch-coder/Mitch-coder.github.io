@@ -20,18 +20,59 @@ const Portfolio = () => {
           <div>
             <span className="primaryText">My Latest Works</span>
           </div>
-          <span className="secondaryText">Explore More Works in my github acount</span>
+          <a href="https://github.com/Mitch-coder">
+          <span className="secondaryText" >Explore More Works in my github acount</span>
+          </a>
+          
         </motion.div>
 
 
         <div className={`flexCenter ${css.showCase}`}>
-            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./codeland.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
+        <motion.section>
+        <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./beKind.png" alt="project" />
 
-            <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./codeland.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .7, .6)} src="./showCase2.png" alt="project" />
-            <motion.img variants={fadeIn("up", "tween", .9, .6)} src="./showCase3.png" alt="project" />
+        <h1>BeKind</h1>
+        <p>is a practical, versatile and collaborative application between<br/> users,
+           in which they show the nearby ATMs from where they are, <br/>
+            also indicating if they are empty or not, to facilitate the choice <br/>of the ATM
+             to be going to use and avoid a possible trip to one<br/> that does not have money.</p>
+        <div className="deployAndCode">
+        <a id="a1"href="https://github.com/J2rg3n-B3rm2d3z/FinalProject">Go to the repository</a>
+        </div>
+        </motion.section>
+
+  
+        <motion.section>
+        <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./codeland.png" alt="project" />
+        <h1>Codeland</h1>
+        <p>A page dedicated to programming in Turbo C 2.0, where you  <br/>can have access to multiple codes and documentation to  <br/>facilitate its use and study.</p>
+        <div className="deployAndCode">
+        <a id="a1"href="https://github.com/mgrobleto/CodeLand">Go to the repository</a>
+        </div>
+        </motion.section>
+
+        <motion.section>
+    
+        <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./rickAndMorty.png" alt="project" />
+        <h1>Rick and Morty - API</h1>
+        <p>This is a project example for consume an API.
+              Technologies:<br/>  React, TypeScript, Axios and Bootstrap.<br/> 
+          </p>
+        <div className="deployAndCode">
+        <a id="a1"href="https://github.com/Mitch-coder/Rick-And-Morthy-Project">Go to the repository</a>
+        </div>
+        </motion.section>
+
+
+        <motion.section>
+        <motion.img variants={fadeIn("up", "tween", .5, .6)} src="./authSystem.png" alt="project" />
+        <h1>AuthenticationSystem</h1>
+        <p>is a project where i put in practice technologies such as<br/> graphql,react,jwt,tailwind for develop the auth  system.</p>
+        <div className="deployAndCode">
+        <a id="a1"href="https://github.com/Mitch-coder/AuthenticationSystem">Go to the repository</a>
+        </div>
+        </motion.section>
+
         </div>
       </div>
     </motion.section>

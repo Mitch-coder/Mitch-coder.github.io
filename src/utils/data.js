@@ -34,11 +34,11 @@ export const WhatDoIHelp = [
 
 export const workExp = [
   {
-    place: "Self-Employed, Brisbane",
-    tenure: "Aug 2014 - Sep 2016",
-    role: "Visual Designer",
+    place: "DigitalReef",
+    tenure: "Nov 2021 - Present",
+    role: "QA Engineer",
     detail:
-      "A visual desginer dsesign for a variety of platoforms, may include internet and internet sites, games, movies, kioasks and wearbies. In short, they create the concepts",
+      "I am in charge to ensure that aplications and services meet a certain quality standard. This is achieved by made testing, verifying and evaluating the software and in that way  deliver quality products to the customers.",
   }
 ];
 
